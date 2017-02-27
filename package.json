@@ -1,0 +1,23 @@
+{
+  "name": "lambda-dynamo-backup-to-s3",
+  "version": "0.0.1",
+  "description": "AWS Lambda function to backup DynamoDB tables to S3",
+  "main": "index.js",
+  "keywords": [
+    "lambda",
+    "aws",
+    "dynamodb",
+    "s3"
+  ],
+  "author": "Firespring",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "dynamo-backup-to-s3": "^0.6.0",
+    "node-lambda": "^0.8.13"
+  },
+  "scripts": {
+    "setup": "node-lambda setup",
+    "run": "node-lambda run",
+    "deploy": "node-lambda deploy"
+  }
+}
